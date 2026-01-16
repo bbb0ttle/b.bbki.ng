@@ -8,9 +8,9 @@
   <link rel="icon" href="favicon.svg">
   <style>
     body {
-        padding-bottom: 100px;
-        grid-template-columns: 1fr min(45rem,40%) 1fr;
+        grid-template-columns: 1fr min(45rem, 34%) 1fr;
         display: grid;
+        line-height: 1.65;
     }
      body > * {
         grid-column: 2;
@@ -22,10 +22,11 @@
       super();
       this.attachShadow({mode:'open'}).innerHTML = `
         <style>
-          .post{margin:10px 0}
+          .post{margin-bottom: 100px}
           .post-title{font-size:1.2em}
           .post-content{margin-top:4px;color:#121111}
           .post-date{font-size:.8em;color:#999}
+          a {color: ##007fff; text-decoration: none;}
         </style>
         <div class="post">
           <div class="post-title"></div>
