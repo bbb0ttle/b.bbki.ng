@@ -42,11 +42,11 @@
   customElements.define('post-item',PostItem);
 
   fetch('posts.json').then(r=>r.json()).then(data=>{
-    data.sort((a,b)=>new Date(b.created_at)-new Date(a.created_at)).forEach(p=>{
+    data.forEach(p=>{
       const el=document.createElement('post-item');
       el.title=p.title;
       el.content=p.content;
-      if(p.created_at)el.date=new Date(p.created_at).toISOString().split('T')[0];
+    //   if(p.created_at)el.date=new Date(p.created_at).toISOString().split('T')[0];
       document.body.appendChild(el);
     });
   });
