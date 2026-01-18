@@ -1,5 +1,10 @@
 [
   {
+    "title": "备份",
+    "content": "<p><a href=\"https://b.bbki.ng\">b.bbki.ng</a> 是 bbki.ng 博客的备份，b 表示 backup 或者 plan b. </p>\n<p>每次更新内容，JSON 数据会同步到 b.bbki.ng <a href=\"https://github.com/bbb0ttle/b.bbki.ng/blob/main/posts.json\">仓库</a>。b.bbki.ng 使用 <code>&lt;bb-blog content=\"posts.json”&gt;&lt;/bb-blog&gt;</code> 重现最小，但数据完整的博客。</p>",
+    "created_at": "2026-01-18T14:22:36.664Z"
+  },
+  {
     "title": "干嘛",
     "content": "<p>现在不跳舞要干嘛<br />\n揪到了你的双下巴</p>",
     "created_at": "2026-01-18T13:52:10.982Z"
